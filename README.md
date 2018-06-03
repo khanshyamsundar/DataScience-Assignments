@@ -24,3 +24,20 @@
 # session4
 1. Assignment4.1 -->  NA                                       output --> Submitted directly in the Submit assignment link from dashboard
 2. Assignment4.2 --> /src/session4/session4Assignment1.py      output --> /output/session4/session4Assignment4.png
+
+# session5
+1. Assignment5.1 --> NA                                        output --> Submitted directly in the Submit assignment link from dashboard
+2. Assignment5.2 --> /src/session5/session5Assignment2.py      output --> /output/session5/Session5Assignment2.png
+
+# session6
+1. Assignment6.1 --> /src/session6/session6Assignment1.py      output --> /output/session6/Session5Assignment1.png
+
+# session7
+1. Assignment7.1 --> /src/session6/session7Assignment1.py      output --> /output/session7/Session7Assignment1.png
+
+# session9
+1. Assignment9.1 --> /src/session6/session9Assignment1.py      output --> /output/session9/Session9Assignment1.1.png
+                                                                          /output/session9/Session9Assignment1.2.png
+                                                                          /output/session9/Session9Assignment1.3.png
+                                                                          /output/session9/Session9Assignment1.4.png
+                                                                          /output/session9/Session9Assignment1.5.png
