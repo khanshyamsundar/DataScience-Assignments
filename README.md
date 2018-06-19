@@ -33,7 +33,10 @@
 1. Assignment6.1 --> /src/session6/session6Assignment1.py      output --> /output/session6/Session5Assignment1.png
 
 # session7
-1. Assignment7.1 --> /src/session6/session7Assignment1.py      output --> /output/session7/Session7Assignment1.png
+1. Assignment7.1 --> /src/session7/session7Assignment1.py      output --> /output/session7/Session7Assignment1.png
+
+# session8
+1. Assignment8.1 --> /src/session8/session8Assignment1.py      output --> /output/session8/Session8Assignment1.png
 
 # session9
 1. Assignment9.1 --> /src/session6/session9Assignment1.py      output --> /output/session9/Session9Assignment1.1.png
