@@ -55,3 +55,9 @@
 # session11
 1. Assignment11.1 --> /src/session11/session11Assignment1.py      output --> /output/session11/Session11Assignment1.1.png
                                                                           /output/session11/Session11Assignment1.2.png
+
+# session12
+1. Assignment12.1 --> /src/session12/session12Assignment1.py      output --> /output/session12/Session12Assignment1.1.png
+                                                                          /output/session12/Session12Assignment1.2.png
+                                                                          /output/session12/Session12Assignment1.3.png
+                                                                          /output/session12/Session12Assignment1.4.png
