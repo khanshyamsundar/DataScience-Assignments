@@ -15,6 +15,9 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.schema import Sequence
+from sqlalchemy import update, insert, delete, func, select
+
+# 1. Create an sqlalchemy engine using a sample from the data set
 
 
 def Load_Data(file_name):
@@ -70,10 +73,11 @@ s = session()
 
 try:
     # sample CSV file used:  http://www.google.com/finance/historical?q=NYSE%3AT&ei=W4ikVam8LYWjmAGjhoHACw&output=csv
-    file_name = "adult_data.csv"
+    # file_name = "adult_data.csv"
+    file_name = "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data"
     data = Load_Data(file_name)
     t = time()
-    for i in data[0:100]:  # Select top 100 rows
+    for i in data[0:99]:  # Select top 100 rows
         record = Adult_data(**{
             'age': i[0],
             'workclass': i[1],
@@ -98,4 +102,78 @@ except:
     s.rollback()  # Rollback the changes on error
 finally:
     s.close()  # Close the connection
-print("Time elapsed: " + str(time() - t) + " s.")  # 0.091s
+# print("Time elapsed: " + str(time() - t) + " s.")  # 0.091s
+
+# show all data
+print('-'*100)
+print("Show all data:\n")
+print(s.query(Adult_data).all())
+
+# 2. Write two basic update queries
+# update age where id = 99
+print('-'*100)
+stmt = update(Adult_data).where(Adult_data.id == 99).values(age=55)
+s.execute(stmt)
+s.commit()
+
+print("\nCheck after 1st update:\n")
+result_set1 = s.query(Adult_data).filter(Adult_data.id == 99).all()
+print(result_set1)
+
+# update salary who has Bechelors
+stmt = update(Adult_data).where(Adult_data.education ==
+                                ' Bachelors').values(salary='>70k')
+s.execute(stmt)
+s.commit()
+
+print("\nCheck after 2nd update:\n")
+result_set2 = s.query(Adult_data.id, Adult_data.education, Adult_data.salary).filter(
+    Adult_data.education == ' Bachelors').all()
+print(result_set2)
+
+# 3. Write two delete queries
+print("-"*100)
+# delete from adult_data where edution = Some-college
+stmt = delete(Adult_data).where(Adult_data.education == ' Some-college')
+s.execute(stmt)
+s.commit()
+print("\nCheck after 1st delete:\n")
+result_set3 = s.query(Adult_data.id, Adult_data.education, Adult_data.salary).filter(
+    Adult_data.education == ' Some-college').all()
+
+# delete from adult_data where id = 101
+stmt = delete(Adult_data).where(Adult_data.id == 101)
+s.execute(stmt)
+s.commit()
+
+print("\nCheck after 2nd delete:\n")
+result_set4 = s.query(Adult_data.id, Adult_data.education, Adult_data.salary).filter(
+    Adult_data.id == 101).all()
+print(result_set4)
+
+# 4. Write two filter queries
+print('-'*100)
+print("\nfiltered data where workclass is Federal-gov:\n")
+result_set5 = s.query(Adult_data).filter(
+    Adult_data.workclass == ' Federal-gov').all()
+print(result_set5)
+
+
+print('-'*100)
+print("\nfiltered data where education is Bechelors:\n")
+result_set6 = s.query(Adult_data.id, Adult_data.education, Adult_data.salary).filter(
+    Adult_data.education == ' Bachelors').all()
+print(result_set6)
+
+
+# 5. Write two function queries
+print('-'*100)
+print("\ndata count who has workclass as Federal-gov:\n")
+result_set7 = s.query(func.count(1)).filter(
+    Adult_data.workclass == ' Federal-gov').scalar()
+print(result_set7)
+
+print("\ntotal working hours group by workclass:\n")
+result_set8 = s.query(Adult_data.education, func.sum(
+    Adult_data.hours_per_week)).group_by(Adult_data.workclass).all()
+print(result_set8)
