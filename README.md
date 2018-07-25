@@ -69,3 +69,28 @@
                                                                           /output/session14/Session14Assignment1.4.png                                                                                             /output/session14/Session14Assignment1.5.png
                                                                           /output/session14/Session14Assignment1.6.png
                                                                           /output/session14/Session14Assignment1.7.png
+                                                                          
+# session15
+1. Assignment15.1 --> /src/session15/Project1.ipynb      
+
+output -->
+/output/session15/Session15Project1.1.png
+/output/session15/Session15Project1.2.png
+/output/session15/Session15Project1.3.4.png
+/output/session15/Session15Project1.5.png
+/output/session15/Session15Project1.6.png
+/output/session15/Session15Project1.8.png
+/output/session15/Session15Project1.9.png
+/output/session15/Session15Project1.10.png
+/output/session15/Session15Project1.11.png
+/output/session15/Session15Project1.12.png
+/output/session15/Session15Project1.13.png
+/output/session15/Session15Project1.14.png
+/output/session15/Session15Project1.15.png
+/output/session15/Session15Project1.16.png
+/output/session15/Session15Project1.17.png
+/output/session15/Session15Project1.18.png
+/output/session15/Session15Project1.19.png
+/output/session15/Session15Project1.20.png
+/output/session15/Session15Project1.20.1.png
+/output/session15/Session15Project1.20.2.png
