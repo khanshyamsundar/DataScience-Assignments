@@ -94,3 +94,8 @@ output -->
 /output/session15/Session15Project1.20.png
 /output/session15/Session15Project1.20.1.png
 /output/session15/Session15Project1.20.2.png
+
+# session16
+1. Assignment16.1 --> /src/session16/session16Assignment1.jpg
+2. Assignment16.2 --> /src/session16/session16Assignment2.jpg
+3. Assignment16.3 --> /src/session16/session16Assignment3.jpg
