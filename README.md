@@ -99,3 +99,8 @@ output -->
 1. Assignment16.1 --> /src/session16/session16Assignment1.jpg
 2. Assignment16.2 --> /src/session16/session16Assignment2.jpg
 3. Assignment16.3 --> /src/session16/session16Assignment3.jpg
+
+# session17
+1. Assignment17.1 --> /src/session17/session17Assignment1.jpg
+2. Assignment17.2 --> /src/session17/session17Assignment2.jpg
+3. Assignment17.3 --> /src/session17/session17Assignment3.jpg
