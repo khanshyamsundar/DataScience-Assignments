@@ -104,3 +104,11 @@ output -->
 1. Assignment17.1 --> /src/session17/session17Assignment1.jpg
 2. Assignment17.2 --> /src/session17/session17Assignment2.jpg
 3. Assignment17.3 --> /src/session17/session17Assignment3.jpg
+
+
+# session19
+1. Assignment19.1 -->   /src/session19/session19Assignment1.jpg
+2. Assignment19.2 -->   /src/session19/session19Assignment2.1.jpg
+                        /src/session19/session19Assignment2.2.jpg
+3. Assignment19.3 -->   /src/session19/session19Assignment3.1.jpg
+                        /src/session19/session19Assignment3.2.jpg
