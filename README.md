@@ -107,7 +107,8 @@ output -->
 
 
 # session19
-1. Assignment19.1 -->   /src/session19/session19Assignment1.jpg
+1. Assignment19.1 -->   /src/session19/session19Assignment1.1jpg
+                        /src/session19/session19Assignment1.2jpg
 2. Assignment19.2 -->   /src/session19/session19Assignment2.1.jpg
                         /src/session19/session19Assignment2.2.jpg
 3. Assignment19.3 -->   /src/session19/session19Assignment3.1.jpg
