@@ -113,3 +113,14 @@ output -->
                         /src/session19/session19Assignment2.2.jpg
 3. Assignment19.3 -->   /src/session19/session19Assignment3.1.jpg
                         /src/session19/session19Assignment3.2.jpg
+# session21
+1. Assignment21.1 --> /src/session21/session21Assignment1.py      output --> /output/session21/Session21Assignment1.1.png
+                                                                          /output/session21/Session21Assignment1.2.png
+                                                                          /output/session21/Session21Assignment1.3.png
+                                                                          /output/session21/Session21Assignment1.4.png
+
+# session22
+1. Assignment22.1 --> /src/session22/session22Assignment1.py      output --> /output/session22/Session22Assignment1.1.png
+                                                                          /output/session22Session22Assignment1.2.png
+                                                                          /output/session22/Session22Assignment1.3.png
+                                                                          /output/session22/Session22Assignment1.4.png
