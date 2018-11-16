@@ -136,3 +136,12 @@ output -->
 /output/session23/Session23_Project1_1.4.png
 /output/session23/Session23_Project1_1.5.png
 /output/session15/Session15Project1.6.png
+
+
+# session24
+1. Assignment24.1 --> /src/session24/session24Assignment1.ipynb      output --> /output/session24/Session24Assignment1.1.png
+                                                                                /output/session24/Session24Assignment1.2.png
+                                                                                /output/session24/Session24Assignment1.3.png
+                                                                                /output/session24/Session24Assignment1.4.png
+                                                                                /output/session24/Session24Assignment1.5.png
+                                                                                /output/session24/Session24Assignment1.6.png
