@@ -147,3 +147,6 @@ output -->
                                                                                 /output/session24/Session24Assignment1.6.png
 # Session25
 1. Assignment25.1 --> /src/session25/session25Assignment1.ipynb output --> /output/session25/ (folder)
+
+# Session26
+1. Assignment26.1 --> /src/session26/session26Assignment1.ipynb output --> /output/session26/ (folder)
