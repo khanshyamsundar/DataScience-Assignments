@@ -150,3 +150,6 @@ output -->
 
 # Session26
 1. Assignment26.1 --> /src/session26/session26Assignment1.ipynb output --> /output/session26/ (folder)
+
+# Session27
+1. Project3 --> /src/session27/Project3.ipynb
