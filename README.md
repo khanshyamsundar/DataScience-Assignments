@@ -153,3 +153,6 @@ output -->
 
 # Session27
 1. Project3 --> /src/session27/Project3.ipynb
+
+# Session28
+1. Assignment28.1 --> /src/session28/session28Assignment1.ipynb
